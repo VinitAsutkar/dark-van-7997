@@ -1,0 +1,2 @@
+const ProductInfo=()=>{}
+export {ProductInfo}
