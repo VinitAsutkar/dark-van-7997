@@ -1,0 +1,40 @@
+#Carousel{
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+#Grid-1{
+    width:80%;
+    margin:auto;
+    margin-bottom:50px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px 40px;
+}
+#Grid-1 img,#Grid-2 img,#Grid-3 img,#Grid-4 img{
+    width:100%;
+}
+#Grid-2,#Grid-3{
+    width:80%;
+    margin:auto;
+    margin-bottom:50px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+    font-weight:500;
+    text-decoration:underline;
+}
+#Grid-4{
+    width:80%;
+    margin:auto;
+    margin-bottom:50px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px 40px;
+    font-weight:500;
+    text-decoration:underline;
+}
+#Container-1,#Container-2,#Container-3,#Container-4{
+    margin-bottom:50px;
+}
