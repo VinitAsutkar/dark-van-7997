@@ -43,7 +43,6 @@ const ProductInfo=()=>{
           src={image}
           fit={'cover'}
           align={'center'}
-          w={'40%'}
           margin={'auto'}
           />
           </Flex>
